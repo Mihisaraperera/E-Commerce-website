@@ -1,0 +1,36 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Prata&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+
+:root{
+    --primary-color:#2bcbba;
+    --light-color: #d1d8e0;
+    --grey-color:#687080;
+    --red-color: #ff4757;
+    --flashwhite-color:#f1f2f6;
+    --white-color:#ffffff;
+    --dark-color:#212121;
+
+    --primary-font:'Montserrat', sans-se;
+    --secont-font:'Prata', serif;
+    --fs14:0.875rem;
+    --fw600:600;
+
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
